@@ -5,4 +5,3 @@ class AirQualityReading(models.Model):
     temperature = models.FloatField()
     humidity = models.FloatField()
     co2 = models.IntegerField()
-
